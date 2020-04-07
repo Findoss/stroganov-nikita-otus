@@ -2,7 +2,9 @@
 
 /**
  * Curry function
- * @param {function} fn 
+ * 
+ * @function curry
+ * @param {function} fn Function for correlation
  * @return If no arguments then return result `fn` else return function partial currying
  */
 const curry = fn => (...args) => {
@@ -15,7 +17,9 @@ const curry = fn => (...args) => {
 
 /**
  * Sum numbers
- * @param  {...any} args numbers or array numbers
+ * 
+ * @function sumNums
+ * @param {number|number[]} args Numbers or array numbers
  * @return {number} sum
  */
 function sumNums(...args) {
