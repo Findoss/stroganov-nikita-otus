@@ -1,0 +1,45 @@
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 8px;
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+html {
+  margin: 0;
+}
+
+#id, #id2, #id3 {
+  border-color: brown;
+  border-width: 3px;
+}
+
+.item {
+  border-color: olivedrab;
+  border-width: 3px;
+}
+
+.class {
+  border-color: goldenrod;
+  border-width: 3px;
+}
+
+.class-x {
+  border-style: dashed;
+}
+
+.class-z {
+  border-style: dotted;
+}
+
+[data-attr] {
+  border-color:royalblue;
+  border-width: 3px;
+}
+
+[name], [title] {
+  border-color:blueviolet;
+  border-width: 3px;
+}

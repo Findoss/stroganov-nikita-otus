@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="home">
+    <!-- START TEST -->
+    <button id="start-tests" style="">Start test</button>
+
+    <!-- LEGEND -->
+    <div>node</div>
+    <div id="id">id</div>
+    <div class="class">class</div>
+    <div class="item">item</div>
+    <div data-attr="data-attr">attr data-attr</div>
+    <div name="name">attr name</div>
+    <div title="title">attr title</div>
+
+    TEST 1
+    <div>
+      <div>
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+      </div>
+    </div>
+
+    TEST 2
+    <div>
+      <div>
+        <div id="id2">text</div>
+      </div>
+    </div>
+
+    TEST 3
+    <div id="id3">
+      <div>
+        <div>text</div>
+      </div>
+    </div>
+
+    TEST 4
+    <div>
+      <div>
+        <div>text</div>
+        text
+      </div>
+      text
+    </div>
+
+    TEST 5
+    <div class="class class-x">
+      text
+      <div class="class">
+        text
+        <div class="class">text</div>
+      </div>
+    </div>
+
+    TEST 6
+    <div class="class">
+      text
+      <div class="class">
+        text
+        <div class="class">text</div>
+        <div class="class">text</div>
+        <div class="class">text</div>
+      </div>
+    </div>
+
+    TEST 7
+    <div class="class class-x">
+      text
+      <div class="class class-y">
+        text
+        <div class="class class-z">text</div>
+      </div>
+    </div>
+
+    TEST 8
+    <div class="class class-x">
+      text
+      <div>
+        text
+        <div class="class" data-attr="data-attr" data-attr2="data-hello">attr</div>
+      </div>
+    </div>
+
+    TEST 9
+    <div>
+      <div class="class" data-attr="data-attr">attr</div>
+      <div class="class" data-attr="data-attr">attr</div>
+      <label name="uno">label</label>
+      <input type="text" name="mega" value="input">
+    </div>
+
+    TEST 10
+    <div>
+      <br>
+      <label name="uno">label</label>
+      <label name="uno">label</label>
+      <label name="uno">label</label>
+      <label name="uno">label</label>
+      <br><br>
+      <input type="text" name="ultra" value="input">
+    </div>
+
+  </body>
+  <script src="index.js"></script>
+  <script src="index.spec.js"></script>
+</html>
