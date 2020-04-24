@@ -1,0 +1,12 @@
+{
+  "name": "homework-node-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node request.js",
+    "start": "node server.js"
+  },
+  "author": "Findoss",
+  "license": "MIT"
+}
